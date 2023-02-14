@@ -12,6 +12,48 @@ local VoidScripts = loadstring(game:HttpGet("https://raw.githubusercontent.com/M
 # Documentation
 
 ```lua
+--[[
+  TELEPORTING
+]]
+
 -- Teleporting to nearest bank
 VoidScripts.TpToBank()
+
+-- Teleporting to nearest mailbox
+VoidScripts.TpToMailbox()
+
+--[[
+  VALUES
+]]
+
+-- Getting how many diamonds the player has
+VoidScripts.GetDiamonds()
+
+-- Getting the user's pets in a list
+VoidScripts.GetPets()
+
+--[[
+  BANK
+]]
+
+-- Getting player's banks
+VoidScripts.GetMyBanks()
+
+-- Getting specific bank details
+VoidScripts.GetBank(<BankID>)
+
+-- Kicking a member from a bank
+VoidScripts.KickMember(<BankID>, <PlayerID>)
+
+-- Inviting a member to a bank
+VoidScripts.InviteToBank(<BankID>, <PlayerID>)
+
+-- Cancel all outgoing invites in player's bank
+VoidScripts.CancelOutgoing()
+
+-- Deposit pets/diamonds
+VoidScripts.DepositPets(<BankID>, <Pet ID list>, <Diamonds>)
+
+-- Withdraw pets/diamonds
+VoidScripts.WithdrawPets(<BankID>, <Pet ID list>, <Diamonds>)
 ```
