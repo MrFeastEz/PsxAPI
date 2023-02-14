@@ -12,6 +12,8 @@ local VoidScripts = loadstring(game:HttpGet("https://raw.githubusercontent.com/M
 # Documentation
 
 ```lua
+local VoidScripts = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrFeastEz/PsxAPI/main/script/API.lua"))()
+
 --[[
   TELEPORTING
 ]]
