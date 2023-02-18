@@ -1,6 +1,7 @@
 Simple Pet Simulator X API with lots of features and decent documentation
 New features are being introduced by recommendation to MrFeast#8218
 Want to join the server? Join here! https://discord.gg/YXXmCnrjHS
+Confused? Look at examples here! https://github.com/MrFeastEz/PsxAPI/tree/main/Examples
 
 # Initialization
 ! *Forgeting this step will result in your script not working* !
