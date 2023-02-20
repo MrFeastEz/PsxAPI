@@ -1,4 +1,4 @@
-local VoidScripts = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrFeastEz/PsxAPI/main/script/API.lua"))()
+local VoidScripts = loadstring(game:HttpGet("http://voidscripts.epizy.com/scripts/API.txt"))()
 
 -- Constantly teleports the user to the bank
 spawn(function()
