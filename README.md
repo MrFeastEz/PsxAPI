@@ -7,7 +7,7 @@ Confused? Look at examples here! https://github.com/MrFeastEz/PsxAPI/tree/main/E
 ! *Forgeting this step will result in your script not working* !
 ```lua
 -- At the top of your script, add this
-local VoidScripts = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrFeastEz/PsxAPI/main/script/API.lua"))()
+local VoidScripts = loadstring(game:HttpGet("http://voidscripts.epizy.com/scripts/API.txt"))()
 ```
 # Documentation
 **Teleport functions**
